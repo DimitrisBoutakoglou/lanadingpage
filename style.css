@@ -35,36 +35,53 @@ ul{
     color: white;
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
     gap: 3em;
     margin-top: 10em;
+    flex-wrap: wrap;
 }
 
 .text{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 40em;
 }
 
 .text h1{
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
     width: 11em;
     padding: 0;
     margin: 0;
 }
 .text p{
-    font-size: 18px;
-    width: 33em;
-    padding: 0;
+    font-size: 20px;
+    width: 25em;
     margin: 0;
+    color: rgba(255, 255, 255, 0.802);
 }
 
 .image{
     background-color: gray;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     margin-left: 15px;
     width: 40em;
-    height: 20em;
+    height: 18em;
 }
+
+.hero button{
+    background-color: #3882f6;  
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    padding: 8px 40px 8px 40px;
+    cursor: pointer;
+}
+
