@@ -190,3 +190,8 @@ ul{
     cursor: pointer;
 }
 
+.footer p{
+    color: white;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+}
