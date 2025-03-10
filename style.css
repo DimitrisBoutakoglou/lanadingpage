@@ -91,6 +91,7 @@ ul{
     flex-direction: column;
     text-align: center;
     padding-top: 2em;
+    padding-bottom: 10em;
 }
 
 .info h1{
@@ -121,7 +122,25 @@ ul{
     margin: 0.5em;
 }
 
+.quote{
+    background-color:#E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+}
 
+.quote-text p{
+    width: 65rem;
+    font-size: 36px;
+    color: #1f2937eb;
+}
 
+.quote h2{
+    font-size: 30px;
+    text-align: end;
+    padding-right: 1em;
+    margin: 0%;
+}
 
 
