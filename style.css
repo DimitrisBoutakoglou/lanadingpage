@@ -85,20 +85,43 @@ ul{
 }
 
 .info{
-    border: solid 1px red;
+    background-color: white;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.info h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
 }
 
 .container{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    padding-top: 2em;
 }
 
-.description{
-    display: flex;
+.container img{
+    width: 10em;
+    border: 5px solid #3882f6;
+    border-radius: 2em;
+    padding: 1em;
 }
 
-.box{
-    position: relative;
-    padding: 5em;
-    border:2px solid gray;
+.container p{
+    font-size: 18px;
+    width: 13em;
+    padding: 0;
+    margin: 0.5em;
 }
+
+
+
+
 
