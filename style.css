@@ -127,19 +127,22 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5em;
+    flex-wrap: wrap;
+    padding: 10em 0em 10em 0em;
 }
 
-.quote-text p{
+.quote-text{
+    width: 100%;
     width: 65rem;
     font-size: 36px;
     color: #1f2937eb;
 }
 
 .quote h2{
-    font-size: 30px;
+    color: black;
+    font-size: 25px;
     text-align: end;
-    padding-right: 1em;
+    padding-right: 1.5em;
     margin: 0%;
 }
 
