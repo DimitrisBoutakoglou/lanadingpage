@@ -38,7 +38,6 @@ ul{
     gap: 3em;
     margin-top: 10em;
     flex-wrap: wrap;
-    border: 2px solid red;
 }
 
 .text{
@@ -56,7 +55,7 @@ ul{
 }
 
 .text p{
-    display: flex;
+
     font-size: 18px;
     width: 70%;
     margin: 0;
@@ -68,8 +67,8 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40em;
-    height: 18em;
+    width: 40rem;
+    height: 18rem;
 }
 
 .hero button{
@@ -83,5 +82,23 @@ ul{
     font-size: 15px;
     padding: 8px 40px 8px 40px;
     cursor: pointer;
+}
+
+.info{
+    border: solid 1px red;
+}
+
+.container{
+    display: flex;
+}
+
+.description{
+    display: flex;
+}
+
+.box{
+    position: relative;
+    padding: 5em;
+    border:2px solid gray;
 }
 
